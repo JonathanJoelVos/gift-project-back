@@ -6,11 +6,11 @@ export class UniqueEntityId {
     this._id = id ?? randomUUID();
   }
 
-  get toValue() {
+  toValue() {
     return this._id;
   }
 
-  get toString() {
+  toString() {
     return this._id;
   }
 }
